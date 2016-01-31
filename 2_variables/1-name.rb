@@ -1,7 +1,10 @@
-puts "What's your name?"
-name = gets.chomp
-puts "Hello " + name
+puts "What's your firstname?"
+firstname = gets.chomp
+puts "What's your last name"
+lastname = gets.chomp
+fullname = firstname + " " + lastname
+puts "Hello " + fullname
 
 10.times do
-    puts name
+    puts fullname
 end
